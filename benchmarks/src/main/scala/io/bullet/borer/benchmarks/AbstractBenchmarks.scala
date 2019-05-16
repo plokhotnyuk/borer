@@ -79,7 +79,7 @@ abstract class DomBenchmark {
       "turkish.json",
       "twitter_api_compact_response.json",
       "twitter_api_response.json"))
-  var fileName: String = "twitter_api_response.json"
+  var fileName: String = "reddit-scala.json"
 
   var fileBytes: Array[Byte] = _
 

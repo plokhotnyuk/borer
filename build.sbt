@@ -238,6 +238,7 @@ lazy val benchmarks = project
   .settings(commonSettings)
   .settings(
     publishArtifact := false,
+    libraryDependencies ++= Seq(utest.value),
     libraryDependencies ++= Seq(
       "com.github.plokhotnyuk.jsoniter-scala" %% "jsoniter-scala-core"   % "0.47.0",
       "com.github.plokhotnyuk.jsoniter-scala" %% "jsoniter-scala-macros" % "0.47.0" % Provided,

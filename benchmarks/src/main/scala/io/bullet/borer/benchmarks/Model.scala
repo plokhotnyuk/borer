@@ -1050,17 +1050,7 @@ object Reddit {
       num_crossposts: Int,
       num_comments: Int,
       send_replies: Boolean,
-      mod_reports: Seq[String],
-      author_patreon_flair: Boolean,
-      author_flair_text_color: Nullable[String],
-      permalink: String,
-      whitelist_status: String,
-      stickied: Boolean,
-      url: String,
-      subreddit_subscribers: Int,
-      created_utc: Double,
-      media: Option[SecureMedia] = None,
-      is_video: Boolean
+      mod_reports: Seq[String]
   )
 
   case class Child(
